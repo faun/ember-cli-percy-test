@@ -4,6 +4,5 @@ steps:
       - "npm install"
       - "ember test"
     plugins:
-      docker#v1.1.1:
-        image: "node:8"
-        workdir: /app
+      docker-compose#v2.1.0:
+        run: app
