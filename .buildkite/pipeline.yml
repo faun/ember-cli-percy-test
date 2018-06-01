@@ -1,7 +1,7 @@
 steps:
   - label: "tests"
     commands:
-      - "npm install"
+      - "npm install -g ember-cli"
       - "ember test"
     plugins:
       docker-compose#v2.1.0:
