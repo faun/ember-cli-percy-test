@@ -2,7 +2,7 @@ steps:
   - label: "tests"
     commands:
       - "npm install"
-      - "npm run test"
+      - "npm test"
     plugins:
       docker-compose#v2.1.0:
         run: app
