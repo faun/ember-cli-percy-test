@@ -1,4 +1,5 @@
 steps:
   - label: "tests"
     commands:
+      - "npm install"
       - "ember test"
