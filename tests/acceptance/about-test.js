@@ -7,6 +7,7 @@ module('Acceptance | about', function(hooks) {
 
   test('visiting /about', async function(assert) {
     await visit('/about');
+    percySnapshot('about');
 
     assert.equal(currentURL(), '/about');
   });
